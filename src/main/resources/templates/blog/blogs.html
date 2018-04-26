@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link th:href="@{/css/blogs.css}" rel="stylesheet"/>
+</head>
+<body>
+<div th:insert="layout/header :: header"></div>
+<h1 th:if="${blogs.isEmpty()}">No Blogs</h1>
+<div class="blogs">
+    <div th:each="blog: ${blogs}" class="blogs-item">
+        <div class="blogs-item-title" th:utext="${blog.title}">
+        </div>
+        <div class="blogs-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi illo iste
+            iure libero praesentium rerum? Consequuntur corporis facilis minus praesentium quam quasi quis, quisquam
+            quod repellat soluta. Aperiam at dolores molestias perferendis quae, temporibus voluptas! Assumenda harum
+            quibusdam velit vitae!
+        </div>
+        <div class="blogs-item-footer">
+            <a th:href="@{'/blog/' + ${blog.id}}">Read more</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+@import '../fonts';
+
+.blogs {
+  background-color: #efeeee;
+  font-family: 'Glacia Indifferent';
+  font-size: 1.5rem;
+  padding: 1.5rem 3rem;
+
+  .blogs-item {
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    .blogs-item-title, .blogs-item-description {
+      padding-bottom: 0.5rem;
+    }
+
+    .blogs-item-title {
+      font-weight: bolder;
+    }
+  }
+}

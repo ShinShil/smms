@@ -1,0 +1,36 @@
+body, html {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  background-color: white; }
+  .header .logo, .header .auth {
+    font-family: 'Lato', SansSerif;
+    padding: 0.5rem 3rem; }
+  .header .spacer {
+    flex: 1 1 auto; }
+  .header .logo a {
+    text-decoration: none;
+    color: black; }
+    .header .logo a .logo-header {
+      font-weight: bold;
+      letter-spacing: 0.5rem;
+      font-size: 2rem; }
+    .header .logo a .logo-subheader {
+      opacity: 0.7; }
+  .header .auth {
+    display: flex; }
+    .header .auth .auth-nav {
+      font-weight: bold;
+      font-size: 1.25rem;
+      padding-right: 0.8rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: black; }
+    .header .auth .auth-nav:hover {
+      cursor: pointer;
+      opacity: 0.2;
+      color: black; }

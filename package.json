@@ -1,0 +1,15 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "node tools for scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch resource_src/styles/scss --output src/main/resources/static/css"
+  },
+  "author": "Nikit Starostin",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.8.3"
+  }
+}

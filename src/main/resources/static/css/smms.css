@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|PT+Sans|Ultra|Vollkorn");
+@font-face {
+  font-family: 'Glacia Indifferent';
+  src: url("../fonts/GlacialIndifference-Regular.otf");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Glacia Indifferent';
+  src: url("../fonts/GlacialIndifference-Bold.otf");
+  font-weight: bold; }
+
+.top-wrapper {
+  height: 100vh;
+  background-image: url("../img/smms_bg.jpg");
+  background-size: 100% 100vh; }
+
+.attention .attenttion-wrapper {
+  font-family: 'Glacia Indifferent';
+  font-size: 2rem;
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center; }
+  .attention .attenttion-wrapper .main {
+    font-family: 'Lato';
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    font-size: 3rem; }
+  .attention .attenttion-wrapper button {
+    align-self: flex-start;
+    font-size: 2rem;
+    align-items: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: azure;
+    font-family: 'Lato';
+    border-style: none;
+    margin-top: 15px;
+    border-radius: 10px; }
+  .attention .attenttion-wrapper button:hover {
+    cursor: pointer;
+    background-color: orange; }
+
+.interest {
+  padding: 3rem;
+  text-align: justify;
+  font-size: 1.5rem;
+  padding-top: 1rem; }
+  .interest .interest-intro {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.25rem; }
+  .interest .benefits {
+    width: 70%;
+    margin: 0 auto; }
+    .interest .benefits h3 {
+      text-align: center;
+      border-top: 2px dashed;
+      font-size: 1.75rem;
+      margin: 0;
+      padding: 1rem 0;
+      text-transform: uppercase;
+      margin-top: 1rem; }
+    .interest .benefits .benefits-item {
+      display: flex;
+      justify-content: space-between; }
+      .interest .benefits .benefits-item .benefits-icon {
+        font-size: 8rem;
+        display: flex;
+        justify-content: center; }
+        .interest .benefits .benefits-item .benefits-icon i {
+          align-self: center; }
+      .interest .benefits .benefits-item .benefits-text {
+        padding: 1rem 0; }
+        .interest .benefits .benefits-item .benefits-text .orange {
+          color: orange; }
+        .interest .benefits .benefits-item .benefits-text .benefits-text-header {
+          font-weight: bold;
+          font-size: 1.5rem;
+          padding-bottom: 0.5rem; }
+        .interest .benefits .benefits-item .benefits-text .benefits-text-content {
+          font-size: 1.25rem; }
+      .interest .benefits .benefits-item .benefits-icon, .interest .benefits .benefits-item .benefits-text {
+        flex: 47%;
+        max-width: 47%;
+        border-top: 2px dashed black; }
+    .interest .benefits .benefits-item.last-border .benefits-icon, .interest .benefits .benefits-item.last-border .benefits-text {
+      border-bottom: 2px dashed black; }
+
+.works {
+  background-color: #cfd5d3;
+  padding: 3rem;
+  padding-top: 1rem;
+  font-size: 1.5rem; }
+  .works .works-wrapper .works-lists {
+    display: flex; }
+    .works .works-wrapper .works-lists ul {
+      flex: 30%;
+      max-width: 30%; }
+
+.flaer {
+  display: flex;
+  padding: 1.8rem;
+  padding-top: 0;
+  width: 50%;
+  margin: 0 auto; }
+  .flaer .left {
+    font-family: 'Glacia Indifferent'; }
+    .flaer .left .item {
+      display: flex;
+      align-items: center;
+      padding-right: 1.8rem; }
+      .flaer .left .item .index {
+        font-family: 'Ultra';
+        font-weight: bold;
+        font-size: 6rem;
+        width: 84px;
+        text-align: center; }
+      .flaer .left .item .context .context-header {
+        font-size: 2rem;
+        font-weight: bold; }
+      .flaer .left .item .context .context-subheader {
+        font-size: 1.5rem;
+        font-weight: normal; }
+  .flaer .right {
+    flex: 30%;
+    padding-top: 1.2rem;
+    font-size: 1.2rem;
+    align-items: center;
+    display: flex; }
+    .flaer .right button {
+      width: 42%;
+      font-size: 1.5rem;
+      padding: 10px 20px;
+      border-radius: 10px;
+      border-style: none;
+      background-color: white; }
+    .flaer .right form {
+      outline: 1px white solid;
+      padding: 18px; }
+    .flaer .right button:hover {
+      cursor: pointer;
+      background-color: darksalmon; }
+    .flaer .right input {
+      padding: 0.5rem 1rem;
+      outline: none;
+      font-size: 1.2rem;
+      border-style: none;
+      border-radius: 8px;
+      margin-bottom: 1rem; }

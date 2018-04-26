@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SMM</title>
+</head>
+<body>
+<div th:insert="layout/header :: header"></div>
+<h3 th:utext="${blogModel.title}"></h3>
+<p th:utext="${blogModel.text}"></p>
+</body>
+</html>

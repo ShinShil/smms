@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|PT+Sans|Ultra|Vollkorn");
+@font-face {
+  font-family: 'Glacia Indifferent';
+  src: url("../fonts/GlacialIndifference-Regular.otf");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Glacia Indifferent';
+  src: url("../fonts/GlacialIndifference-Bold.otf");
+  font-weight: bold; }
+
+.blogs {
+  background-color: #efeeee;
+  font-family: 'Glacia Indifferent';
+  font-size: 1.5rem;
+  padding: 1.5rem 3rem; }
+  .blogs .blogs-item {
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem; }
+    .blogs .blogs-item .blogs-item-title, .blogs .blogs-item .blogs-item-description {
+      padding-bottom: 0.5rem; }
+    .blogs .blogs-item .blogs-item-title {
+      font-weight: bolder; }
