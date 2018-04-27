@@ -9,8 +9,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class HomeController {
 
     @GetMapping("/")
-    public String smms(@RequestParam(name="name", required = false, defaultValue = "World") String name, Model model) {
-        model.addAttribute("name", name);
+    public String smms() {
         return "smms";
+    }
+
+    @GetMapping("/author")
+    public String author() {
+        return "author";
     }
 }

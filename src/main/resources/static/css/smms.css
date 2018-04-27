@@ -91,28 +91,87 @@
       border-bottom: 2px dashed black; }
 
 .works {
-  background-color: #cfd5d3;
   padding: 3rem;
   padding-top: 1rem;
-  font-size: 1.5rem; }
-  .works .works-wrapper .works-lists {
-    display: flex; }
-    .works .works-wrapper .works-lists ul {
-      flex: 30%;
-      max-width: 30%; }
+  font-size: 1.5rem;
+  background-image: url("../img/works_bg.png"); }
+  .works .works-wrapper {
+    width: 70%;
+    margin: 0 auto; }
+    .works .works-wrapper h2 {
+      color: white;
+      text-transform: uppercase;
+      font-size: 2.5rem;
+      text-align: center; }
+    .works .works-wrapper .works-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative; }
+      .works .works-wrapper .works-items .divider {
+        width: 2px;
+        background-color: #e25920;
+        position: absolute;
+        height: 100%;
+        bottom: -3rem;
+        left: 50%; }
+      .works .works-wrapper .works-items .works-item {
+        color: white;
+        display: inline-block;
+        margin-top: 6rem;
+        max-width: 45%;
+        width: 45%; }
+        .works .works-wrapper .works-items .works-item .works-item-header {
+          background-color: #e25920;
+          text-transform: uppercase;
+          text-align: center;
+          padding: 1rem; }
+        .works .works-wrapper .works-items .works-item .works-item-description {
+          padding: 1rem;
+          text-align: center;
+          border: 1px #e25920 solid; }
+      .works .works-wrapper .works-items .works-item.first {
+        margin-top: 0; }
+
+.comments {
+  font-size: 1.5rem;
+  padding: 3rem;
+  padding-top: 1rem; }
+  .comments .comments-header, .comments .comments-subheader {
+    text-align: center; }
+  .comments .comments-header {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.75rem;
+    padding-bottom: 0.5rem;
+    font-weight: bold; }
+  .comments .comments-subheader {
+    font-size: 1.25rem;
+    padding-bottom: 1.5rem; }
+  .comments .users {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vw;
+    max-height: 800px; }
+    .comments .users .user {
+      padding: 2rem;
+      width: 25%; }
 
 .flaer {
   display: flex;
-  padding: 1.8rem;
-  padding-top: 0;
-  width: 50%;
-  margin: 0 auto; }
+  padding: 5rem;
+  background-color: #efeeee; }
   .flaer .left {
-    font-family: 'Glacia Indifferent'; }
+    width: 100%;
+    font-family: 'Glacia Indifferent';
+    display: flex;
+    justify-content: space-around; }
     .flaer .left .item {
       display: flex;
       align-items: center;
-      padding-right: 1.8rem; }
+      padding-right: 1.8rem;
+      flex-wrap: wrap; }
       .flaer .left .item .index {
         font-family: 'Ultra';
         font-weight: bold;
@@ -125,6 +184,20 @@
       .flaer .left .item .context .context-subheader {
         font-size: 1.5rem;
         font-weight: normal; }
+      .flaer .left .item .action {
+        width: 100%;
+        text-align: center;
+        background: white;
+        padding: 0.75rem 0;
+        border-radius: 19px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 2rem;
+        color: black;
+        text-decoration: none; }
+      .flaer .left .item .action:hover {
+        background-color: darksalmon;
+        cursor: pointer; }
   .flaer .right {
     flex: 30%;
     padding-top: 1.2rem;
@@ -151,3 +224,22 @@
       border-style: none;
       border-radius: 8px;
       margin-bottom: 1rem; }
+
+.footer {
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem 5rem;
+  font-family: 'Glacia Indifferent'; }
+  .footer .top {
+    display: flex;
+    border-bottom: 3px white solid;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem; }
+    .footer .top .hrefs {
+      display: flex;
+      flex-flow: column;
+      border-right: 3px white solid;
+      padding-right: 1rem;
+      margin-right: 1rem;
+      padding-left: 1rem; }
