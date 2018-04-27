@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.author-content {
+  display: flex; }
+  .author-content .left {
+    width: 20%;
+    padding: 2rem;
+    background-color: #dfe0e0;
+    font-family: 'Montserrat'; }
+    .author-content .left .image {
+      width: 100%;
+      border-radius: 50%;
+      overflow: hidden;
+      background-color: darksalmon;
+      height: 200px; }
+      .author-content .left .image img {
+        width: 100%; }
+    .author-content .left .content .content-item {
+      padding-top: 1rem;
+      color: #263547; }
+      .author-content .left .content .content-item .content-item-header {
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        padding-bottom: 0.5rem; }
+      .author-content .left .content .content-item .content-item-content {
+        opacity: 0.5;
+        font-family: 'Nunito Light';
+        font-size: 1.25rem; }
+        .author-content .left .content .content-item .content-item-content div {
+          padding: 0.3rem 0; }
+  .author-content .right {
+    color: #d0826f;
+    padding: 3rem; }
+    .author-content .right .right-header {
+      padding-bottom: 2.5rem; }
+      .author-content .right .right-header .big {
+        font-family: 'Montserrat';
+        font-size: 5rem;
+        text-transform: uppercase;
+        font-weight: bold; }
+      .author-content .right .right-header .small {
+        font-size: 2.5rem;
+        font-family: 'Nunito Light';
+        font-variant: all-small-caps; }
+    .author-content .right .items .item {
+      padding: 1rem 0;
+      padding-bottom: 3rem;
+      margin-bottom: 1.5rem;
+      border-bottom: 3px #263547 solid; }
+      .author-content .right .items .item .item-header {
+        font-size: 1.65rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: 0.5rem; }
+      .author-content .right .items .item .item-content {
+        color: #263547;
+        font-size: 1.5rem; }

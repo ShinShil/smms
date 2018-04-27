@@ -1,41 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head>
     <meta charset="UTF-8">
     <title>SMM</title>
+    <link th:href="@{/css/author.css}" rel="stylesheet"/>
 </head>
 <body>
-<div class="author-header">
-    <div class="blue">
-
-    </div>
-    <div class="red">
-
-    </div>
-    <div class="image">
-
-    </div>
-</div>
+<div th:insert="layout/header :: header"></div>
 <div class="author-content">
     <div class="left">
-
+        <div class="image">
+            <img th:src="@{/img/author.jpg}" />
+        </div>
+        <div class="content">
+            <div class="content-item">
+                <div class="content-item-header">
+                    Professional
+                    Skills
+                </div>
+                <div class="content-item-content">
+                    <div>Lorem</div>
+                    <div>Lorem2</div>
+                    <div>Lorem3</div>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="content-item-header">
+                    Personal
+                    Skills
+                </div>
+                <div class="content-item-content">
+                    <div>Lorem</div>
+                    <div>Lorem2</div>
+                    <div>Lorem3</div>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="content-item-header">
+                    Contact
+                </div>
+                <div class="content-item-content">
+                    <div>Lorem</div>
+                    <div>Lorem2</div>
+                    <div>Lorem3</div>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="content-item-header">
+                    Social
+                </div>
+                <div class="content-item-content">
+                    <div>Lorem</div>
+                    <div>Lorem2</div>
+                    <div>Lorem3</div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="right">
         <div class="right-header">
             <div class="big">
-
+                POLINA DUBOVIK
+            </div>
+            <div class="small">
+                SMM & photostudio
             </div>
         </div>
         <div class="items">
             <div class="item">
                 <div class="item-header">
-
+                    About
                 </div>
                 <div class="item-content">
-
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem esse exercitationem fuga officia
+                    porro? Ab accusamus amet at, culpa cupiditate dicta, enim fugit ipsa iste maxime, minima optio
+                    perferendis perspiciatis placeat quasi quidem ratione reiciendis repudiandae sequi sint unde velit!
                 </div>
             </div>
 
+            <div class="item">
+                <div class="item-header">
+                    Work experience
+                </div>
+                <div class="item-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem esse exercitationem fuga officia
+                    porro? Ab accusamus amet at, culpa cupiditate dicta, enim fugit ipsa iste maxime, minima optio
+                    perferendis perspiciatis placeat quasi quidem ratione reiciendis repudiandae sequi sint unde velit!
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    Education
+                </div>
+                <div class="item-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem esse exercitationem fuga officia
+                    porro? Ab accusamus amet at, culpa cupiditate dicta, enim fugit ipsa iste maxime, minima optio
+                    perferendis perspiciatis placeat quasi quidem ratione reiciendis repudiandae sequi sint unde velit!
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    Awards
+                </div>
+                <div class="item-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem esse exercitationem fuga officia
+                    porro? Ab accusamus amet at, culpa cupiditate dicta, enim fugit ipsa iste maxime, minima optio
+                    perferendis perspiciatis placeat quasi quidem ratione reiciendis repudiandae sequi sint unde velit!
+                </div>
+            </div>
         </div>
 
     </div>
